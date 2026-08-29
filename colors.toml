@@ -1,0 +1,37 @@
+mode = "dark"
+
+# Rick and Morty: lab-dark space with portal-green energy.
+# Wallpaper carries the neon sky; chrome is portal fluid, Morty yellow, and cyan.
+
+accent = "#97ce4c"
+selection = "#1c1430"
+muted = "#6e6480"
+
+background = "#090215"
+dark_background = "#06010f"
+darker_background = "#030008"
+lighter_background = "#1a1230"
+
+foreground = "#F4E7C3"
+dark_foreground = "#9a8f74"
+light_foreground = "#f7eed4"
+bright_foreground = "#fff6dc"
+
+hyprland_active_border = "rgba(97ce4cee) rgba(7fede1dd) 135deg"
+hyprland_inactive_border = "rgba(3a284866)"
+
+red = "#e84b6a"
+yellow = "#ffe14a"
+orange = "#ff9f43"
+green = "#97ce4c"
+cyan = "#7fede1"
+blue = "#5d9fff"
+magenta = "#e040e8"
+brown = "#7e4e32"
+
+bright_red = "#ff6b88"
+bright_yellow = "#ffe97a"
+bright_green = "#c6ff5c"
+bright_cyan = "#b6fff6"
+bright_blue = "#8cb8ff"
+bright_magenta = "#ff7af0"

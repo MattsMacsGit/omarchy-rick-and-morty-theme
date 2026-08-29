@@ -1,0 +1,133 @@
+# Rick and Morty shell surfaces — space-dark cards, portal-green rims.
+
+[bar]
+background       = "#090215"
+background-alpha = 0.72
+text             = "#F4E7C3"
+active           = "#ffe14a"
+scale-with-font  = true
+size-horizontal  = 28
+size-vertical    = 30
+
+[hyprland]
+active-border            = "rgba(97ce4cee) rgba(7fede1dd) 135deg"
+active-border-foreground = "rgba(f4e7c3cc) rgba(97ce4cdd) 135deg"
+
+[controls]
+normal-color        = "#F4E7C3"
+normal-fill-alpha   = 0.06
+normal-border       = "#97ce4c"
+normal-border-width = 1
+normal-border-alpha = 0.32
+
+hover-cursor-color        = "#f7eed4"
+hover-cursor-fill-alpha   = 0.12
+hover-cursor-border       = "#97ce4c"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.5
+
+focus-color        = "#f7eed4"
+focus-fill-alpha   = 0.12
+focus-border       = "#97ce4c"
+focus-border-width = 1
+focus-border-alpha = 0.5
+
+selected-color        = "#fff6dc"
+selected-fill-alpha   = 0.18
+selected-border       = "#97ce4c"
+selected-border-width = 1
+selected-border-alpha = 0.6
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.32
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background       = "#090215"
+background-alpha = 0.78
+text             = "#F4E7C3"
+border           = "hyprland.active-border"
+border-alpha     = 0.9
+
+[tooltip]
+background       = "#090215"
+background-alpha = 0.82
+text             = "#F4E7C3"
+border           = "hyprland.active-border-foreground"
+border-alpha     = 0.85
+
+[notifications]
+background       = "#090215"
+background-alpha = 0.78
+text             = "#F4E7C3"
+border           = "hyprland.active-border"
+border-alpha     = 0.9
+countdown        = "#97ce4c"
+
+[launcher]
+background                = "#090215"
+background-alpha          = 0.72
+text                      = "#F4E7C3"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 0.85
+scrim                     = "#030008"
+scrim-alpha               = 0.4
+selected-background       = "#97ce4c"
+selected-background-alpha = 0.18
+selected-text             = "#97ce4c"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.45
+
+[menu]
+background                = "#090215"
+background-alpha          = 0.72
+text                      = "#F4E7C3"
+border                    = "hyprland.active-border-foreground"
+border-alpha              = 0.85
+scrim                     = "#030008"
+scrim-alpha               = 0.4
+selected-background       = "#97ce4c"
+selected-background-alpha = 0.18
+selected-text             = "#97ce4c"
+selected-border           = "hyprland.active-border-foreground"
+selected-border-alpha     = 0.45
+
+[polkit]
+background       = "#090215"
+background-alpha = 0.8
+text             = "#F4E7C3"
+text-error       = "#e84b6a"
+border           = "hyprland.active-border"
+border-error     = "#e84b6a"
+border-alpha     = 0.9
+scrim            = "#030008"
+scrim-alpha      = 0.45
+accent           = "#97ce4c"
+
+[lock]
+background       = "#090215"
+background-alpha = 0.55
+text             = "#F4E7C3"
+placeholder      = "#9a8f74"
+text-error       = "#e84b6a"
+border           = "hyprland.active-border"
+border-active    = "hyprland.active-border"
+border-error     = "#e84b6a"
+border-alpha     = 0.95
+selection        = "#97ce4c"
+selection-alpha  = 0.4
+
+[image-picker]
+scrim                   = "#030008"
+scrim-alpha             = 0.42
+text                    = "#F4E7C3"
+selected-border         = "#97ce4c"
+selected-border-alpha   = 1.0
+unselected-border       = "#F4E7C3"
+unselected-border-alpha = 0.28
