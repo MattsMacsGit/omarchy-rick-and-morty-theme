@@ -1,0 +1,12 @@
+#!/bin/bash
+# Use a theme's own screensaver.txt when it ships one; restore yours otherwise.
+branding=~/.config/omarchy/branding/screensaver.txt
+saved=~/.config/omarchy/branding/screensaver.txt.own
+themed=~/.local/state/omarchy/current/theme/screensaver.txt
+
+if [[ -f $themed ]]; then
+  [[ -f $saved ]] || cp "$branding" "$saved"
+  cp "$themed" "$branding"
+elif [[ -f $saved ]]; then
+  mv "$saved" "$branding"
+fi
